@@ -38,7 +38,7 @@ This is the algorithm exercise for my interview, come on!!
 3:总的最优reduce就是dp[(2 << n)-1].reduce，然后根据最后状态的last状态递归寻找路径输出.
 
 
-###二分搜索：
+##二分搜索：
 
 ####lpj_minimize_max: 
 

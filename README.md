@@ -4,6 +4,18 @@ This is the algorithm exercise for my interview, come on!!
 
 ##动态规划：
 
+###普通dp
+
+####hdu_4248_A_Famous_Stone_Collector
+
+题意：给n堆不同颜色的石头，给定每堆石子的数量，问，能够组成多少串满足：Two patterns are considered different, if and only if they have different number of stones or have different colors on at least one position.
+
+解答：这题用组合数学+动态规划。考虑前i-1种石头，组成了长度是j，很明显，这里j的大小是[1,arr[0]+arr[1]+...+arr[i-1]]范围内，考虑第i种石头，则可以往长度为j的石头序列中加入0,1,...,arr[i]个石头不同的情况，比如往长度为j的序列里加入k个石头，则都有C(j+k,k)种可能。因此递推表达式是：
+
+    for(int j = 0;j <= sum;j++){
+        for(int k = 0;k <= arr[i];k++) dp[i][j+k] += dp[i-1][j]*c[j+k][k];
+    }
+
 ###状态dp，二进制表示，状态压缩：
 
 ####poj3254-Corn Fields 

@@ -37,7 +37,7 @@ import java.util.Scanner;
 /**
  * Created by ABC on 2016/6/21 0021.
  */
-public class hdu_1532_Drainage_Ditches {
+public class network_flow_hdu_1532_Drainage_Ditches {
 
     static int [][] flow = new int[205][205];
     static int [][] cap = new int [205][205];

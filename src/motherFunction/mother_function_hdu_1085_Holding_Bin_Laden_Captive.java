@@ -1,6 +1,6 @@
 /*
-‚ÄúGiven some Chinese Coins (Á°¨Â∏Å) (three kinds-- 1, 2, 5), and their number is num_1, num_2 and num_5 respectively, please output the minimum value that you cannot pay with given coins.‚Äù
-You, super ACMer, should solve the problem easily, and don‚Äôt forget to take $25000000 from Bush!
+°∞Given some Chinese Coins (”≤±“) (three kinds-- 1, 2, 5), and their number is num_1, num_2 and num_5 respectively, please output the minimum value that you cannot pay with given coins.°±
+You, super ACMer, should solve the problem easily, and don°Øt forget to take $25000000 from Bush!
  
 
 Input
@@ -29,7 +29,7 @@ import java.util.Scanner;
 /**
  * Created by ABC on 2016/5/28 0028.
  */
-public class mother_function_hdu_1085_Holding_Bin-Laden_Captive {
+public class mother_function_hdu_1085_Holding_Bin_Laden_Captive {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         int [] val = {1,2,5};

@@ -35,12 +35,14 @@ public class _3 {
             a = -a;
             aa[0] = a;
             double l = 0;double e = 2;double mid = (l+e)/2;
+            double last = 0;
             while(true){
                 mid = (l+e)/2;
                 double re = cal(mid,aa);
-                if(Math.abs(re-0) < 0.000000001){
+                if(e-l < 0.000000001){
                     break;
                 }
+                last = Math.abs(re-0);
                 if(re == 0) break;
                 if(re < 0) e = mid;
                 else l = mid;
@@ -49,7 +51,7 @@ public class _3 {
             DecimalFormat df = new DecimalFormat( "0.000000000000");
 
             System.out.println("Case #"+r+": " +df.format(mid));
-        r++;
+            r++;
         }
     }
 

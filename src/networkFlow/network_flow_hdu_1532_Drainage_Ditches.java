@@ -27,7 +27,7 @@ Sample Output
 */
 
 
-package network_flow;
+package networkFlow;
 
 import java.util.Arrays;
 import java.util.LinkedList;

@@ -44,7 +44,7 @@ Neo can destroy the road connecting city 2 and city 4 of weight 5 , and the road
 time, the total minimum time taken is 10 units of time. After destroying these roads none of the Machines can reach other Machine via any path.
 */
 
-package union_find;
+package unionFind;
 
 import java.util.Scanner;
 

@@ -52,7 +52,7 @@ Continue deleting edges the disconnected blocks increased and finally it will be
 */
 
 
-package union_find;
+package unionFind;
 
 import java.util.Scanner;
 

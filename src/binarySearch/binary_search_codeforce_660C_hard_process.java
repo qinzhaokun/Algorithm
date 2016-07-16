@@ -32,7 +32,7 @@ output
 */
 
 
-package binary_search;
+package binarySearch;
 
 import java.util.Scanner;
 

@@ -21,7 +21,7 @@ Sample Output
 */
 
 
-package mother_function;
+package motherFunction;
 
 import java.util.Scanner;
 

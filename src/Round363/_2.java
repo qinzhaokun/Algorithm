@@ -15,51 +15,39 @@ public class _2 {
             int m = scanner.nextInt();
             int n = scanner.nextInt();
             scanner.nextLine();
-            int x1 = -1; int y1 = -1;
-            int x2 = -1;int y2 = -1;
-            boolean flag = false;
+
+            char [][] a = new char[m][n];
+            int [] r = new int [m];
+            int [] c = new int [n];
+            int sum = 0;
             for (int i = 0; i < m; i++) {
                 String line = scanner.nextLine();
                 char[] arr = line.toCharArray();
                 for (int j = 0; j < n; j++) {
+                    a[i][j] = arr[j];
                     if(arr[j] == '*'){
-                        if(x1 == -1){
-                            x1 = i;y1 = j;
-                        }
-                        else if(i == x1 || j == y1){
-                            continue;
-                        }
-                        else if(x2 == -1){
-                            x2 = i;y2 = j;
-                        }
-                        else if(i == x2 || j == y2){
-                            continue;
-                        }
-                        else{
-                            flag = true;
-                        }
+                        r[i]++;
+                        c[j]++;
+                        sum++;
                     }
                 }
             }
-            if(flag){
+            boolean flag = false;
+           for(int i = 0;i < m;i++){
+               if(flag) break;
+               for(int j = 0;j < n;j++){
+                   int num = r[i]+c[j];
+                   if(a[i][j] == '*') num--;
+                   if(num == sum){
+                       System.out.println("YES");
+                       System.out.println((i+1) + " " + (j+1));
+                       flag = true;break;
+                   }
+               }
+           }
+            if(!flag){
                 System.out.println("NO");
             }
-            else{
-                System.out.println("YES");
-                if(x2 == -1){
-                   if(x1 == -1){
-                       System.out.println(1 + " " + 1);
-                   }
-                    else{
-                       System.out.println((x1+1) + " "+(y1+1));
-                   }
-                }
-                else {
-                    System.out.println((x2+1)+" "+(y1+1));
-                }
-            }
-
-
         }
     }
 }

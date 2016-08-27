@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58c1db26-a1ff-4255-94ca-1c20b037e0d3" name="Default" comment="update google test of RoundA">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Round368/A_Brains_Photos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Round368/B/B_Bakery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Round368/C_Pythagorean_Triples.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/educational16/A_KingMoves.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/educational16/B_OptimalPointonaLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/educational16/C_MagicOddSquare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/educational16/E_GenerateaString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Gballoon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Solution31.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Solution32.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Solution386.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Solution43.java" />
+    <list default="true" id="58c1db26-a1ff-4255-94ca-1c20b037e0d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Round367/D_Vasiliys_Multiset.java" afterPath="$PROJECT_DIR$/src/Round367/D_Vasiliys_Multiset.java" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,8 +80,8 @@
       <file leaf-file-name="Gballoon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Gballoon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78403753">
-              <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.6240209">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -945,7 +932,7 @@
       <workItem from="1471698793407" duration="4981000" />
       <workItem from="1471874261095" duration="7580000" />
       <workItem from="1472227263914" duration="991000" />
-      <workItem from="1472279351864" duration="4152000" />
+      <workItem from="1472279351864" duration="4294000" />
     </task>
     <task id="LOCAL-00001" summary="update google test of RoundA">
       <created>1468676711430</created>
@@ -953,15 +940,21 @@
       <option name="project" value="LOCAL" />
       <updated>1468676711430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update google test of RoundD in 2016">
+      <created>1472283548172</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1472283548172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100023000" />
+    <option name="totallyTimeSpent" value="100165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -969,8 +962,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25816995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1004,7 +997,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update google test of RoundA" />
-    <option name="LAST_COMMIT_MESSAGE" value="update google test of RoundA" />
+    <MESSAGE value="update google test of RoundD in 2016" />
+    <option name="LAST_COMMIT_MESSAGE" value="update google test of RoundD in 2016" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1403,6 +1397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="15620" selection-start-line="40" selection-start-column="15620" selection-end-line="40" selection-end-column="15620" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,8 +1484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Gballoon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78403753">
-          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.6240209">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding />
         </state>
       </provider>

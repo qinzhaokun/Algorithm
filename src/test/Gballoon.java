@@ -1,5 +1,9 @@
 package test;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.Scanner;
 
 /**
@@ -8,6 +12,14 @@ import java.util.Scanner;
 public class Gballoon {
 
     public static void main(String [] args){
+        try {
+            FileInputStream input = new FileInputStream(args[0]);
+            System.setIn(input);
+            PrintStream output = new PrintStream(new FileOutputStream(args[1]));
+            System.setOut(output);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         Scanner scanner = new Scanner(System.in);
         int [] V = new int[1005];
         int [][] a = new int[1005][1005];
@@ -21,7 +33,10 @@ public class Gballoon {
                 int p = scanner.nextInt();
                 initH[i] = scanner.nextInt();
                 for(int j = 0;j < m;j++){
-                    if(p*V[j] < 0){
+                    if(p == 0){
+                        a[i][j] = 0;
+                    }
+                    else if(p*V[j] < 0){
                         a[i][j] = (int)(Math.ceil(-(double)(p)/(double)(V[j])));
                     }
                     else{
@@ -40,7 +55,7 @@ public class Gballoon {
                 if(j > 0) dp[0][j] = dp[0][j-1];
               for(int k = 0;k < m;k++){
                   int cost = Math.abs(initH[0]-k);
-                  if(cost <= j && a[0][k] > 0){
+                  if(cost <= j && a[0][k] >= 0){
                       if(dp[0][j] == -1){
                           dp[0][j] = a[0][k];
                       }
@@ -56,7 +71,7 @@ public class Gballoon {
                     if(j > 0) dp[i][j] = dp[i][j-1];
                     for(int k = 0;k < m;k++){
                         int cost = Math.abs(initH[i]-k);
-                        if(cost <= j && dp[i-1][j-cost] >= 0 && a[i][k] > 0){
+                        if(cost <= j && dp[i-1][j-cost] >= 0 && a[i][k] >= 0){
                             if(dp[i][j] == -1){
                              dp[i][j] = Math.max(dp[i-1][j-cost],a[i][k]);
                             }
